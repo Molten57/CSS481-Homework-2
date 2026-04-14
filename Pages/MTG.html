@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
     <title>Favorite MTG Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
   </head>
 
   <body>
     <h1>My Favorite MTG Cards</h1>
 
     <nav>
-      <b>Navigation Links:</b>
-      <a href="../index.html">Home</a>
-      <a href="PizzaRecipe.html">Pizza Recipe</a>
-      <a href="MTG.html">Magic the Gathering</a>
-      <hr>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="PizzaRecipe.html">Pizza Recipe</a></li>
+        <li><a href="MTG.html" class="active">Magic the Gathering</a></li>
+        <li><a><s>A future page!</s></a></li>
+      </ul>
     </nav>
 
+    <hr>
+
     <p>
-      One of my favorite activities is playing MTG with my friends. <br>
-      It's a card game where your goal is to defeat your opponents using creatures and spells. <br>
+      One of my favorite activities is playing MTG with my friends.
+      It's a card game where your goal is to defeat your opponents using creatures and spells.
       This page will contain images of some of my most favorite cards.
     </p>
 
-    <img src="Images/ghyrson.png" width="248" height="346" alt="Ghysron Starn from MTG">
-    <img src="Images/alert_heedbonder.jpg" width="248" height="346" alt="Alert Heedbonder from MTG">
-    <img src="Images/light_paws.jpg" width="248" height="346" alt="Light Paws from MTG">
+    <div class="container">
+      <img src="Images/ghyrson.png" width="248" height="346" alt="Ghysron Starn from MTG">
+      <img src="Images/alert_heedbonder.jpg" width="248" height="346" alt="Alert Heedbonder from MTG">
+      <img src="Images/light_paws.jpg" width="248" height="346" alt="Light Paws from MTG">
+    </div>
   </body>
 </html>

@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    line-height: 1.4;
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1 {
+    font-size: 4vw;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    background-color: #eaeaea;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 4px;
+}
+
+p {
+    font-size: 18px;
+}
+
+blockquote {
+    background-color: #eaeaea;
+    border-left: 8px solid darkgray;
+    margin: 24px 10px;
+    padding: 8px 10px;
+}
+
+div.viewable {
+    max-width: 400px;
+    max-height: 250px;
+}
+
+audio {
+    width: 80vw;
+    max-width: 400px;
+}
+
+iframe, video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-shrink: 1;
+    gap: 2em;
+    height: 400px;
+}
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkgray;
+    font-weight: bold;
+}
+
+figcaption {
+    margin-left: 28px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* styling for tables */
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #eaeaea;
+}
+
+th, td {
+
+    padding: 8px;
+}
+
+table caption {
+    border-left: 4px solid darkgray;
+    border-right: 4px solid darkgray;
+    border-bottom: 4px solid darkgray;
+    caption-side: bottom;
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/* styling for the navigation bar*/
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+nav ul li:last-child {
+    border-right: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a.active {
+    background-color: #ddd;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li {
+        float: none;
+    }
+
+    nav {
+        position: relative;
+    }
+}
